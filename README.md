@@ -26,11 +26,11 @@ or
 
 # To see build on GitHub Actions
 
-[link to Actions](https://github.com/andrii-lemdianov/api-test-petstore/runs/750331296?check_suite_focus=true)
+[link to Actions](https://github.com/andrii-lemdianov/api-test-swagger/runs/)
 
 # To open HTML report online
 
-[link to Report](https://andrii-lemdianov.github.io/api-test-petstore/)
+[link to Report](https://andrii-lemdianov.github.io/api-test-swagger/)
 
 
 
