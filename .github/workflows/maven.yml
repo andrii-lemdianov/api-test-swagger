@@ -37,6 +37,7 @@ jobs:
       - name: Build with Maven
         run: mvn clean test allure:report
       - name: List files
+        if: ${{ always() }}
         run: ls -la
       - name: Generate .nojekyll file
         if: ${{ always() }}
