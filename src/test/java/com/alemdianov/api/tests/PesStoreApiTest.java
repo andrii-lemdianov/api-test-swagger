@@ -82,6 +82,7 @@ public class PesStoreApiTest {
     @EnumSource(StatusEnum.class)
     @Description("Test to verify that it is possible to create a new pet")
     @DisplayName("Test to verify that it is possible to create a new pet")
+    @Execution(SAME_THREAD)
     public void createNewPetTest(StatusEnum status) {
         pet.get().status(status);
         ResponseEntity<Pet> response = petService.create(pet.get());
