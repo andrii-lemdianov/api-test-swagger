@@ -5,6 +5,13 @@ name: Java CI with Maven
 
 on:
   workflow_dispatch:
+    inputs:
+      repo:
+        description: 'repo_name'
+        required: true
+      branch:
+        description: 'repo_branch'
+        required: true
   push:
     branches: [ main ]
   pull_request:
