@@ -38,7 +38,7 @@ jobs:
         run: mvn clean test allure:report
       - name: List files
         if: ${{ always() }}
-        run: ls -la
+        run: ls -la target
       - name: Generate .nojekyll file
         if: ${{ always() }}
         run: touch target/site/allure-maven-plugin/.nojekyll

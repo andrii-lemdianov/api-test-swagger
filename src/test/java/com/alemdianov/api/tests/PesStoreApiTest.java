@@ -22,6 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
+import static io.swagger.client.model.Pet.StatusEnum.AVAILABLE;
 import static io.swagger.client.model.Pet.StatusEnum.PENDING;
 import static org.junit.jupiter.api.parallel.ExecutionMode.CONCURRENT;
 import static org.junit.jupiter.api.parallel.ExecutionMode.SAME_THREAD;
@@ -41,7 +42,7 @@ public class PesStoreApiTest {
         softly = new SoftAssertions();
         pet.set(new Pet()
                 .name(petName.get())
-                .status(PENDING)
+                .status(AVAILABLE)
                 .photoUrls(List.of("http://test_elixir_unit_test.com")));
     }
 
