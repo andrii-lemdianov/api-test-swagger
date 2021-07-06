@@ -26,7 +26,7 @@ or
 
 # To see build on GitHub Actions
 
-[link to Actions](https://github.com/andrii-lemdianov/api-test-swagger/runs/)
+[link to Actions](https://github.com/andrii-lemdianov/api-test-swagger/actions)
 
 # To open HTML report online
 
