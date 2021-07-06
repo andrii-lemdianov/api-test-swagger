@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "6c0a2a641ffe3dd21f3edfeeb9cc9797",
+    "name" : "Test suite for PET endpoint",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}

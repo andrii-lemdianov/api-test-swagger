@@ -1,0 +1,105 @@
+{
+  "uid" : "8d610e5d0711fe8f",
+  "name" : "Test to verify that it is possible to get a pet by id",
+  "fullName" : "com.alemdianov.api.tests.PesStoreApiTest.getByItTest",
+  "historyId" : "d17972cf502d298f5ada41b824c4ef15",
+  "time" : {
+    "start" : 1625529825005,
+    "stop" : 1625529827554,
+    "duration" : 2549
+  },
+  "description" : "Test to verify that it is possible to get a pet by id",
+  "descriptionHtml" : "<p>Test to verify that it is possible to get a pet by id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test to verify that it is possible to get a pet by id",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a single pet",
+      "time" : {
+        "start" : 1625529825500,
+        "stop" : 1625529825981,
+        "duration" : 481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pet",
+        "value" : "class Pet {\n    id: null\n    category: null\n    name: ad6a957d-270d-430e-98ae-be373f59dac1\n    photoUrls: [http://test_elixir_unit_test.com]\n    tags: null\n    status: available\n}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get all pests",
+      "time" : {
+        "start" : 1625529825981,
+        "stop" : 1625529826091,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "386"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az127-368"
+  }, {
+    "name" : "thread",
+    "value" : "1630@fv-az127-368.ForkJoinPool-1-worker-7(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.alemdianov.api.tests.PesStoreApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.alemdianov.api.tests.PesStoreApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getByItTest"
+  }, {
+    "name" : "suite",
+    "value" : "Test suite for PET endpoint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d610e5d0711fe8f.json",
+  "parameterValues" : [ ]
+}

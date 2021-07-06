@@ -1,0 +1,87 @@
+{
+  "uid" : "98cd471009ed431",
+  "name" : "Create a new pet with status - pending",
+  "fullName" : "com.alemdianov.api.tests.PesStoreApiTest.createNewPetTest",
+  "historyId" : "2c5c418e2cd993150c4155fc3b383ae0",
+  "time" : {
+    "start" : 1625529828055,
+    "stop" : 1625529828171,
+    "duration" : 116
+  },
+  "description" : "Test to verify that it is possible to create a new pet",
+  "descriptionHtml" : "<p>Test to verify that it is possible to create a new pet</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test to verify that it is possible to create a new pet",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create a single pet",
+      "time" : {
+        "start" : 1625529828060,
+        "stop" : 1625529828170,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pet",
+        "value" : "class Pet {\n    id: null\n    category: null\n    name: e7682ad4-dc18-44e9-a05d-0112b826564a\n    photoUrls: [http://test_elixir_unit_test.com]\n    tags: null\n    status: pending\n}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az127-368"
+  }, {
+    "name" : "thread",
+    "value" : "1630@fv-az127-368.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.alemdianov.api.tests.PesStoreApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.alemdianov.api.tests.PesStoreApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewPetTest"
+  }, {
+    "name" : "suite",
+    "value" : "Test suite for PET endpoint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98cd471009ed431.json",
+  "parameterValues" : [ ]
+}
